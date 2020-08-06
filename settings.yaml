@@ -13,8 +13,10 @@ header:
 
 tutor:
   enabled: true
+  # TODO Implement tutor customisation
   name: Archie
-  icon: /assets/tutor.png
+  icon: /tutor.png
 
 courses:
+  # TODO Implement reveal-all
   revealAll: false
