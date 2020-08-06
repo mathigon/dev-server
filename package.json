@@ -1,0 +1,22 @@
+{
+  "name": "@mathigon/dev-server",
+  "version": "0.5.0",
+  "description": "Mathigon Development Server",
+  "repository": "@mathigon/dev-server",
+  "license": "UNLICENSED",
+  "bin": {
+    "mathigon-server": "./app.js"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "deep-extend": "^0.6.0",
+    "emojione-assets": "^4.5.0",
+    "express": "^4.16.4",
+    "express-validator": "^6.6.0",
+    "js-yaml": "^3.14.0",
+    "postcss-rtl": "^1.7.2",
+    "pug": "^3.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+# ==============================================================================
+# Qiskit Settings
+# ==============================================================================
+
+
+title: Mathigon
+description: A interactive textbook for secondary mathematics
+
+header:
+  logo: /logo.svg
+  logoWidth: 130
+  banner: /banner.jpg
+
+tutor:
+  enabled: true
+  name: Archie
+  icon: /assets/tutor.png
+
+courses:
+  revealAll: false
