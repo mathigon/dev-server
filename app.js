@@ -33,7 +33,7 @@ class Course {
 
     const meta = (COURSES[id] || {});
     this.color = '#' + (meta.color || '#242436');
-    this.icon = ('icon' in meta) ? meta.icon : `/icons/${id}.png`;
+    this.icon = ('icon' in meta) ? meta.icon : `/resources/${id}/icon.png`;
   }
 
   readFile(name) {
