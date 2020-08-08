@@ -6,13 +6,13 @@ textbooks.
 
 ## TODO List
 
-* [] Course icons in sidebar – 1
-* [] Share, language, glossary and accessibility icons in sidebar footer – 2
-* [] Next button colour and course. Determine nextCourse from curriculum.yaml – 2
-* [] Custom homepage in markdown – 3
-* [] Enable Archie/tutor customisation (name and icon) – 3
-* [] Enable "reveal-all" courses – 1
-* [] Move Gulp scripts into `dev-server` to avoid duplication - 3
+* [ ] Course icons in sidebar – 1
+* [ ] Share, language, glossary and accessibility icons in sidebar footer – 2
+* [ ] Next button colour and course. Determine nextCourse from curriculum.yaml – 2
+* [ ] Custom homepage in markdown – 3
+* [ ] Enable Archie/tutor customisation (name and icon) – 3
+* [ ] Enable "reveal-all" courses – 1
+* [ ] Move Gulp scripts into `dev-server` to avoid duplication - 3
 
 
 ## Contributing
