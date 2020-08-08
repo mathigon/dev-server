@@ -1,10 +1,12 @@
 # Mathigon Development Server
 
+[![Build Status](https://travis-ci.org/mathigon/dev-server.svg?branch=master)](https://travis-ci.org/mathigon/dev-server)
+
 This is a simple NodeJS server to run local development versions of Mathigon's interactive
 textbooks.
 
 
-## TODO List
+## Open Issues
 
 * [ ] Course icons in sidebar – 1
 * [ ] Share, language, glossary and accessibility icons in sidebar footer – 2

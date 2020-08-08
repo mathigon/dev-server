@@ -1,6 +1,7 @@
 {
   "extends": ["config:base"],
   "schedule": ["every weekend"],
+  "pinVersions": false,
   "packageRules": [{
     "updateTypes": ["patch", "pin", "digest"],
     "automerge": true
