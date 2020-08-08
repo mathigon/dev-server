@@ -4,6 +4,17 @@ This is a simple NodeJS server to run local development versions of Mathigon's i
 textbooks.
 
 
+## TODO List
+
+* [] Course icons in sidebar – 1
+* [] Share, language, glossary and accessibility icons in sidebar footer – 2
+* [] Next button colour and course. Determine nextCourse from curriculum.yaml – 2
+* [] Custom homepage in markdown – 3
+* [] Enable Archie/tutor customisation (name and icon) – 3
+* [] Enable "reveal-all" courses – 1
+* [] Move Gulp scripts into `dev-server` to avoid duplication - 3
+
+
 ## Contributing
 
 We welcome community contributions: please file any bugs you find or send us pull requests with
