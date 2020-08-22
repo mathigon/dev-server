@@ -1,13 +1,11 @@
 {
   "extends": ["config:base"],
-  "schedule": ["every weekend"],
+  "schedule": ["before 5am every Saturday"],
   "pinVersions": false,
   "packageRules": [{
     "updateTypes": ["patch", "pin", "digest"],
-    "automerge": true
-  },
-  {
-    "packagePatterns": ["eslint", "^@types"],
-    "automerge": true
+    "groupName": "versions",
+    "automerge": true,
+    "automergeType": "branch"
   }]
 }
