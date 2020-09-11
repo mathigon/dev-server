@@ -1,6 +1,6 @@
 {
   "name": "@mathigon/dev-server",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Mathigon Development Server",
   "repository": "@mathigon/dev-server",
   "license": "UNLICENSED",
@@ -8,7 +8,7 @@
     "mathigon-server": "./app.js"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": "12.x"
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
