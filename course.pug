@@ -1,5 +1,9 @@
+mixin icon(name, size)
+  svg(viewBox=`0 0 ${size} ${size}` class="icon" width=size height=size)&attributes(attributes)
+    use(xlink:href=`/icons.svg#${name}`)
+
 doctype html
-html(lang=lang dir=dir theme=(section.background.includes('dark') ? 'dark' : 'auto'))
+html(lang=lang dir=dir theme=(section.background.includes('dark') ? 'dark' : undefined))
   head
     meta(charset="utf-8")
     title= section.title + ' | ' + course.title
@@ -63,6 +67,8 @@ html(lang=lang dir=dir theme=(section.background.includes('dark') ? 'dark' : 'au
                 .title= next.title
 
         x-tutor(hidden=(!settings.tutor.enabled))
+          +icon('fox', 40)(slot="icon")
+          div(slot="header") #[+icon('fox', 32)] Archie
 
         x-modal#glossary-modal.light: .modal-body
 
