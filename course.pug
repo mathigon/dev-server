@@ -1,5 +1,5 @@
 doctype html
-html(lang=lang dir=dir class=(section.background.includes('dark') ? 'dark-mode' : ''))
+html(lang=lang dir=dir theme=(section.background.includes('dark') ? 'dark' : 'auto'))
   head
     meta(charset="utf-8")
     title= section.title + ' | ' + course.title
@@ -9,8 +9,6 @@ html(lang=lang dir=dir class=(section.background.includes('dark') ? 'dark-mode' 
     link(href=`/resources/${course.id}/styles.css` rel="stylesheet")
 
   body
-    include assets/components.html
-
     header
       a#logo(href="/")
         img(src=settings.header.logo alt="Logo" width=settings.header.logoWidth height=36)

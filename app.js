@@ -87,6 +87,13 @@ app.set('env', 'development');
 app.set('views', __dirname);
 app.set('view engine', 'pug');
 
+// Remove cache-bust suffixes.
+app.use((req, res, next) => {
+  req.url = req.url.replace(/\.([a-z0-9]+)\.(js|css|svg|mp3)/,
+      (m, p1, p2) => p1 === 'min' ? `.min.${p2}` : `.${p2}`);
+  next();
+});
+
 // Static Asset Paths
 app.use(express.static(CWD + '/assets'));
 app.use(express.static(__dirname + '/assets'));
