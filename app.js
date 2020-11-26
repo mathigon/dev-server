@@ -99,8 +99,6 @@ app.use(express.static(CWD + '/assets'));
 app.use(express.static(__dirname + '/assets'));
 app.use('/resources', express.static(CWD + '/build'));
 app.use('/resources', express.static(CWD + '/content'));
-app.use('/images/emoji', express.static(
-    path.join(__dirname, 'node_modules/emojione-assets/png/64')));
 
 app.get('/', (req, res) => {
   const lang = req.query.hl || 'en';

@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
-    "emojione-assets": "^4.5.0",
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
     "js-yaml": "^3.14.0",
