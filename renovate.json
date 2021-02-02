@@ -5,7 +5,6 @@
   "packageRules": [{
     "updateTypes": ["patch", "pin", "digest"],
     "groupName": "versions",
-    "automerge": true,
-    "automergeType": "branch"
+    "automerge": true
   }]
 }
