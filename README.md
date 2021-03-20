@@ -1,3 +1,5 @@
+# :warning: This Repository is archived! Use [@mathigon/studio](https://github.com/mathigon/studio) instead!
+
 # Mathigon Development Server
 
 [![Build Status](https://travis-ci.org/mathigon/dev-server.svg?branch=master)](https://travis-ci.org/mathigon/dev-server)
